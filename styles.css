@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.about-section {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.contact-section {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.recipe-section {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#order-btn {
+  background-color: #FF69B4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#order-btn:hover {
+  background-color: #FFC0CB;
+}
