@@ -11,6 +11,9 @@
 
 <body>
   <header class="topbar">
+    
+    
+    
     <div class="brand">
       <!-- Vectorized “Supergirls” logo (SVG) -->
       <a class="logo" href="#" aria-label="Supergirls Kitchen home">
@@ -86,8 +89,61 @@
       </div>
     </div>
 
-    <button id="order-btn" class="cta">Order Now! 🛍️</button>
+    
+    
+    
+    
+  
+    
+  <center>
+  <button id="order-btn" class="cta" type="button" aria-label="Order on Doordash">
+    <span class="dd-circle" aria-hidden="true">
+      <img
+        class="dd-logo"
+        alt=""
+        src="https://upload.wikimedia.org/wikipedia/commons/1/12/DoorDash_logo.svg"
+      />
+    </span>
+    <span class="dd-text">🛍️ Doordash it Now! 🛍️</span>
+  </button>
+</center>
+
+
+    
+    
+ 
+
+    
+    
+    
   </header>
+  
+  <div>
+       <header class="topbar">
+  <div class="brand">
+    <!-- existing logo/tagline -->
+    
+  </div>
+
+  <!-- NEW: upper-right cart -->
+  <div class="cartbar" aria-live="polite">
+    <button id="cart-btn" class="cta cart-cta" type="button" aria-label="Open cart">
+      <span class="cart-icon" aria-hidden="true">🛒</span>
+      <span class="cart-label">Checkout</span>
+      <span class="cart-total" id="cart-total">$0.00</span>
+      <span class="cart-count" id="cart-count">0</span>
+    </button>
+  </div>
+</header>
+
+
+ 
+   
+  
+    
+ 
+ 
+  </div>
 
   <main class="container">
     <!-- About (advanced) -->
@@ -139,7 +195,7 @@
 
   <!-- Mini Menu Wrapper -->
 <section class="card glass menu-panel" id="menu-panel" aria-live="polite">
-  <h2 class="card-title" style="margin-bottom:6px;">Kara Zor-El's Brazilian Menu</h2>
+  <h2 class="card-title" style="margin-bottom:6px;">Supergirl's American-Brazilian Menu</h2>
   <p class="lead" style="margin-top:0;">Choose items, set quantities, and confirm.</p>
 
   <div class="menu-controls">
