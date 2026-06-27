@@ -81,7 +81,7 @@
       </a>
 
       <div class="tag">
-        <div class="tagline">Gourmet American Fusion</div>
+        <div class="tagline">Gourmet American-Brazilian Fusion</div>
         <div class="subline">Virtual Restaurant</div>
       </div>
     </div>
@@ -97,8 +97,8 @@
       </h2>
 
       <p class="lead">
-        We’re a virtual restaurant serving bold, gourmet American fusion—crafted for
-        comfort, built for flavor, and delivered with city-speed vibes.
+        We’re a virtual restaurant serving bold, gourmet American-Brazilian fusion—crafted for
+        comfort, built for flavor, and delivered with haste.
       </p>
 
       <div class="features">
@@ -135,7 +135,309 @@
       </div>
     </section>
 
-    <!-- Contact -->
+  
+
+  <!-- Mini Menu Wrapper -->
+<section class="card glass menu-panel" id="menu-panel" aria-live="polite">
+  <h2 class="card-title" style="margin-bottom:6px;">Kara Zor-El's Brazilian Menu</h2>
+  <p class="lead" style="margin-top:0;">Choose items, set quantities, and confirm.</p>
+
+  <div class="menu-controls">
+    <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+      <button class="tab-btn" type="button" data-tab="burgers" role="tab" aria-selected="true">
+        Burgers/Sandwiches
+      </button>
+      <button class="tab-btn" type="button" data-tab="wraps" role="tab" aria-selected="false">
+        Wraps
+      </button>
+      <button class="tab-btn" type="button" data-tab="burritos" role="tab" aria-selected="false">
+        Burritos
+      </button>
+      
+      
+       <button class="tab-btn" type="button" data-tab="bakery" role="tab" aria-selected="false">
+        Bakery
+      </button>
+       <button class="tab-btn" type="button" data-tab="drinks" role="tab" aria-selected="false">
+        Drinks
+      </button>
+       <button class="tab-btn" type="button" data-tab="sides" role="tab" aria-selected="false">
+        Sides
+      </button>
+       <button class="tab-btn" type="button" data-tab="mixed drinks" role="tab" aria-selected="false">
+        Mixed Drinks
+      </button>
+      
+       <button class="tab-btn" type="button" data-tab="salads" role="tab" aria-selected="false">
+        Salads
+      </button>
+       <button class="tab-btn" type="button" data-tab="burritos" role="tab" aria-selected="false">
+        Power Bowls
+      </button>
+    </div>
+
+    <div class="menu-content">
+      <!-- BURGERS -->
+      <div class="menu-group is-active" data-group="burgers" role="tabpanel">
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Zor El's Fave</div>
+              <div class="mini-item__desc">100% angus beef, 2 pieces honey hickory smoked bacon, mayo, chipotle sauce, barbeque sauce, 3 pickles, buffalo sauce, lettuce & tomato on a brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="14.99">$14.99</div>
+          </div>
+
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Zora's Fave" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+
+            <button type="button" class="add-btn" data-add="Zora's Fave">Add</button>
+          </div>
+        </div>
+
+        <!-- 4 more burger mini items (same controls/quantity) -->
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Classic Cheeseburger</div>
+              <div class="mini-item__desc">Angus beef patty, American Cheese, pickles, lettuce, tomato, and ketchup on a toasted brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="12.49">$12.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Classic Cheeseburger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Classic Cheeseburger">Add</button>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Spicy Chipotle Burger</div>
+              <div class="mini-item__desc">Angus beef, spicy chipotle mayo, hickory smoked bacon, cheddar cheese, pickles, hot sauce, lettuce & tomato on a brioche bun with a lime to add flavor.</div>
+            </div>
+            <div class="mini-item__price" data-price="13.49">$13.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Spicy Chipotle Burger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Spicy Chipotle Burger">Add</button>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">BBQ Bacon Burger</div>
+              <div class="mini-item__desc">Angus beef, hickory smoked bacon, BBQ sauce+spicy honey, sweet onions, cheddar cheese, pickles, lettuce & tomato on brioche.</div>
+            </div>
+            <div class="mini-item__price" data-price="13.99">$13.99</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for BBQ Bacon Burger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="BBQ Bacon Burger">Add</button>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Junkyard Pepperjack Burger</div>
+              <div class="mini-item__desc">Angus beef, sautéed mushrooms, jalapeno slices, pepperjack cheese, garlic aioli, lettuce & tomato on toasted brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="14.49">$14.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Junkyard Pepperjack Burger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Junkyard Pepperjack Burger">Add</button>
+          </div>
+        </div>
+      </div>
+      
+            <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Super Salmon Sandwich</div>
+              <div class="mini-item__desc">Wild caught Salmon, seasoned broccoli & cheese, cheddar cheese, blue cheese, lemon, on a toasted buttery brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="16.49">$16.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Super Salmon Sandwich" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Super Salmon Sandwich">Add</button>
+          </div>
+        </div>
+      </div>
+    
+          <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Shrimp Barbacoa Sandwich</div>
+              <div class="mini-item__desc">Gulf Shrimp, salsa, fluffy butter toasted brioche bun, fiesta cheese.</div>
+            </div>
+            <div class="mini-item__price" data-price="14.49">$11.29</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Shrimp Barbacoa Taco" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Shrimp Barbacoa Taco">Add</button>
+          </div>
+        </div>
+      </div>
+  
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">3pc Spicy Chicken Strip Sandwich</div>
+              <div class="mini-item__desc">3 spicy chicken strips on brioche bun, french fries, pickles and buffalo sauce on the side </div>
+            </div>
+            <div class="mini-item__price" data-price="14.49">$14.76</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for 6pc Spicy Chicken Strips" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="3pc Spicy Chicken Strip Sandwich">Add</button>
+          </div>
+        </div>
+      </div>
+    
+          <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Junkyard Pepperjack Burger</div>
+              <div class="mini-item__desc">Angus beef, sautéed mushrooms, jalapeno slices, pepperjack cheese, garlic aioli, lettuce & tomato on toasted brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="14.49">$14.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Mushroom Swiss Burger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Mushroom Swiss Burger">Add</button>
+          </div>
+        </div>
+      </div>
+  
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Junkyard Pepperjack Burger</div>
+              <div class="mini-item__desc">Angus beef, sautéed mushrooms, jalapeno slices, pepperjack cheese, garlic aioli, lettuce & tomato on toasted brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="14.49">$14.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Mushroom Swiss Burger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Mushroom Swiss Burger">Add</button>
+          </div>
+        </div>
+      </div>
+  
+        <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Junkyard Pepperjack Burger</div>
+              <div class="mini-item__desc">Angus beef, sautéed mushrooms, jalapeno slices, pepperjack cheese, garlic aioli, lettuce & tomato on toasted brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="14.49">$14.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Mushroom Swiss Burger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Mushroom Swiss Burger">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mini-item">
+          <div class="mini-item__top">
+            <div>
+              <div class="mini-item__name">Junkyard Pepperjack Burger</div>
+              <div class="mini-item__desc">Angus beef, sautéed mushrooms, jalapeno slices, pepperjack cheese, garlic aioli, lettuce & tomato on toasted brioche bun.</div>
+            </div>
+            <div class="mini-item__price" data-price="14.49">$14.49</div>
+          </div>
+          <div class="mini-item__controls">
+            <div class="qty">
+              <button type="button" class="qty-btn" data-action="dec" aria-label="Decrease quantity">−</button>
+              <input type="number" class="qty-input" min="0" value="0" aria-label="Quantity for Mushroom Swiss Burger" inputmode="numeric">
+              <button type="button" class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="add-btn" data-add="Mushroom Swiss Burger">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- WRAPS (placeholders for now, 5 items can be expanded similarly) -->
+      <div class="menu-group" data-group="wraps" role="tabpanel" hidden>
+        <div class="mini-empty">Wraps mini menu coming next.</div>
+      </div>
+
+      <!-- BURRITOS (placeholders) -->
+      <div class="menu-group" data-group="burritos" role="tabpanel" hidden>
+        <div class="mini-empty">Burritos mini menu coming next.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-summary">
+    <div class="sum-row">
+      <div class="sum-label">Estimated total</div>
+      <div class="sum-value" id="sum-total">$0.00</div>
+    </div>
+    <button class="cta" type="button" id="confirm-order">Add to Order 🛍️</button>
+  </div>
+</section>
+
+ 
+  <section class="card glass catering">
+  <h2 class="card-title">Catering</h2>
+  <p class="lead">
+    For events, we can help—<span class="accent">must order 10 hours in advance</span>.
+  </p>
+</section>
+
+    
+    
+      <!-- Contact -->
     <section class="card glass contact">
       <h2 class="card-title">Get in Touch</h2>
 
@@ -153,86 +455,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Recipe Book -->
-    <section class="card glass recipes">
-      <h2 class="card-title">Pinky's Recipe</h2>
-
-  <!-- Recipe Book -->
-<section class="card glass recipes">
-  <h2 class="card-title">Recipe Book</h2>
-
-  <div class="recipe-cards">
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1200&q=80" alt="Burgers" />
-      <div class="recipe-name">Burgers</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1200&q=80" alt="Wraps" />
-      <div class="recipe-name">Wraps</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1606755962773-d4d1d1a3b0b8?auto=format&fit=crop&w=1200&q=80" alt="Burritos" />
-      <div class="recipe-name">Burritos</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80" alt="Salads" />
-      <div class="recipe-name">Salads</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1604908554162-2e2a4a1d0f7b?auto=format&fit=crop&w=1200&q=80" alt="Flaming hot cheetos fried shrimp limited time only" />
-      <div class="recipe-name">
-        Flaming Hot Cheetos Fried Shrimp
-        <span style="display:block;margin-top:2px;color:rgba(255,255,255,.78);font-weight:800;font-size:12px;">(Limited time only)</span>
-      </div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1542826438-2a1f0b8f6c9b?auto=format&fit=crop&w=1200&q=80" alt="Cakes" />
-      <div class="recipe-name">Cakes</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1200&q=80" alt="Baked seafood" />
-      <div class="recipe-name">Baked Seafood</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=1200&q=80" alt="Snacks" />
-      <div class="recipe-name">Snacks</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1549931319-a43f5e0b9d6b?auto=format&fit=crop&w=1200&q=80" alt="Bakery" />
-      <div class="recipe-name">Bakery</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1529692236671-f1b2b1a9b5d9?auto=format&fit=crop&w=1200&q=80" alt="Brazilian BBQ" />
-      <div class="recipe-name">Brazilian BBQ</div>
-    </a>
-
-    <a class="recipe" href="#">
-      <img class="food-img" src="https://images.unsplash.com/photo-1505253216365-1f6c5c2d9c8b?auto=format&fit=crop&w=1200&q=80" alt="Superhealth" />
-      <div class="recipe-name">Superhealth</div>
-    </a>
-  </div>
-</section>
-
-    </section>
-  </main>
-
-  <section class="card glass catering">
-  <h2 class="card-title">Catering</h2>
-  <p class="lead">
-    For events, we can help—<span class="accent">must order 10 hours in advance</span>.
-  </p>
-</section>
-
+    
   
   
   <footer class="footer">
