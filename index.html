@@ -1,25 +1,190 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Supergirl's Kitchen</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <!-- about section -->
-  <h1>About Us</h1>
-  <p>We're Supergirl's Kitchen, a virtual restaurant serving gourmet American fusion cuisine 🍴.</p>
-  <!-- contact section -->
-  <h1>Get in Touch</h1>
-  <p>Email: [info@supergirlskitchen.com](mailto:info@supergirlskitchen.com)</p>
-  <p>Phone: 123-456-7890 📞</p>
-  <!-- recipe book section -->
-  <h1>Recipe Book</h1>
-  <ul>
-    <li>Burgers 🍔</li>
-    <li>Sandwiches 🥪</li>
-    <li>Salads 🥗</li>
-  </ul>
-  <!-- order button -->
-  <button id="order-btn">Order Now! 🛍️</button>
+  <header class="topbar">
+    <div class="brand">
+      <!-- Vectorized “Supergirls” logo (SVG) -->
+      <a class="logo" href="#" aria-label="Supergirls Kitchen home">
+        <svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7c3aed"/>
+              <stop offset="0.55" stop-color="#ec4899"/>
+              <stop offset="1" stop-color="#22c55e"/>
+            </linearGradient>
+            <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+              <feGaussianBlur stdDeviation="6" result="b"/>
+              <feColorMatrix in="b" type="matrix"
+                values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 0.7 0" result="c"/>
+              <feMerge>
+                <feMergeNode in="c"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+          </defs>
+
+          <!-- Shield badge -->
+          <path d="M320 15
+                   C410 15 490 45 540 80
+                   V125
+                   C540 155 520 175 490 185
+                   C432 205 368 205 320 195
+                   C272 205 208 205 150 185
+                   C120 175 100 155 100 125
+                   V80
+                   C150 45 230 15 320 15 Z"
+                fill="rgba(255,255,255,0.06)"
+                stroke="url(#g1)"
+                stroke-width="6"
+                filter="url(#glow)"/>
+
+          <!-- “S” monogram -->
+          <path d="M305 55
+                   C350 55 395 70 410 85
+                   C420 95 415 115 400 120
+                   C385 125 370 113 342 107
+                   C315 101 292 110 292 125
+                   C292 140 315 143 340 148
+                   C390 158 430 175 420 215
+                   C410 255 362 255 325 250
+                   C280 243 250 225 240 212
+                   C230 200 240 182 255 179
+                   C270 176 285 190 310 198
+                   C335 206 365 205 375 193
+                   C385 181 366 170 338 165
+                   C290 155 250 140 258 105
+                   C265 75 285 55 305 55 Z"
+                fill="url(#g1)"/>
+
+          <!-- Wordmark -->
+          <text x="335" y="135" font-size="34" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+                fill="rgba(255,255,255,0.92)" font-weight="800" letter-spacing="1">
+            Supergirls
+          </text>
+          <text x="335" y="168" font-size="18" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+                fill="rgba(255,255,255,0.7)" font-weight="600" letter-spacing="2">
+            KITCHEN
+          </text>
+        </svg>
+      </a>
+
+      <div class="tag">
+        <div class="tagline">Gourmet American Fusion</div>
+        <div class="subline">Virtual Restaurant</div>
+      </div>
+    </div>
+
+    <button id="order-btn" class="cta">Order Now! 🛍️</button>
+  </header>
+
+  <main class="container">
+    <!-- About (advanced) -->
+    <section class="card glass about">
+      <h2 class="card-title">
+        About <span class="accent">Supergirl's Kitchen</span>
+      </h2>
+
+      <p class="lead">
+        We’re a virtual restaurant serving bold, gourmet American fusion—crafted for
+        comfort, built for flavor, and delivered with city-speed vibes.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon" aria-hidden="true">⚡</div>
+          <div>
+            <div class="feature-title">Signature Fusion</div>
+            <div class="feature-desc">Classic favorites + modern twists.</div>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon" aria-hidden="true">🥗</div>
+          <div>
+            <div class="feature-title">Fresh & Balanced</div>
+            <div class="feature-desc">From indulgent to light—always satisfying.</div>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon" aria-hidden="true">🔥</div>
+          <div>
+            <div class="feature-title">Made to Order</div>
+            <div class="feature-desc">Hot, crisp, and ready when it matters.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chips" aria-label="Highlights">
+        <span class="chip">Gourmet</span>
+        <span class="chip">American Fusion</span>
+        <span class="chip">Fast Delivery</span>
+        <span class="chip">Quality Ingredients</span>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="card glass contact">
+      <h2 class="card-title">Get in Touch</h2>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-label">Email</div>
+          <a class="contact-value" href="mailto:info@supergirlskitchen.com">
+            info@supergirlskitchen.com
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Phone</div>
+          <div class="contact-value">123-456-7890</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recipe Book -->
+    <section class="card glass recipes">
+      <h2 class="card-title">Recipe Book</h2>
+
+      <div class="recipe-cards">
+        <a class="recipe" href="#">
+          <div class="recipe-emoji" aria-hidden="true">🍔</div>
+          <div class="recipe-name">Burgers</div>
+        </a>
+
+        <a class="recipe" href="#">
+          <div class="recipe-emoji" aria-hidden="true">🥪</div>
+          <div class="recipe-name">Sandwiches</div>
+        </a>
+
+        <a class="recipe" href="#">
+          <div class="recipe-emoji" aria-hidden="true">🥗</div>
+          <div class="recipe-name">Salads</div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Supergirl's Kitchen</div>
+    <div class="footer-note">Made with flavor ✨</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('order-btn').addEventListener('click', () => {
+      alert("Ordering flow coming soon!");
+    });
+  </script>
 </body>
 </html>
